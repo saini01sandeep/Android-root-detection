@@ -36,8 +36,8 @@ If any of these are triggered, it lets you know that the app is trying to detect
 2. Run this command from your terminal:
 
 ```bash
-frida -U -n <your.app.package.name> -l android_root_detect.js
-frida -U -f <your.app.package.name> -l android_root_detect.js
+frida -U -n <your.app.package.name> -l Android_root_detection_Monitor.js
+frida -U -f <your.app.package.name> -l Android_root_detection_Monitor.js
 ```
 
 ##Example Output 
